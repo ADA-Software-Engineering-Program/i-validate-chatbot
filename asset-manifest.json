@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/i-validate.git/static/css/main.d7e26831.css",
-    "main.js": "/i-validate.git/static/js/main.73b53cbf.js",
-    "static/js/787.f110c368.chunk.js": "/i-validate.git/static/js/787.f110c368.chunk.js",
-    "static/media/logo.svg": "/i-validate.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/i-validate.git/index.html",
-    "main.d7e26831.css.map": "/i-validate.git/static/css/main.d7e26831.css.map",
-    "main.73b53cbf.js.map": "/i-validate.git/static/js/main.73b53cbf.js.map",
-    "787.f110c368.chunk.js.map": "/i-validate.git/static/js/787.f110c368.chunk.js.map"
+    "main.css": "/i-validate/static/css/main.d7e26831.css",
+    "main.js": "/i-validate/static/js/main.65ee36e2.js",
+    "static/js/787.f110c368.chunk.js": "/i-validate/static/js/787.f110c368.chunk.js",
+    "static/media/logo.svg": "/i-validate/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/i-validate/index.html",
+    "main.d7e26831.css.map": "/i-validate/static/css/main.d7e26831.css.map",
+    "main.65ee36e2.js.map": "/i-validate/static/js/main.65ee36e2.js.map",
+    "787.f110c368.chunk.js.map": "/i-validate/static/js/787.f110c368.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7e26831.css",
-    "static/js/main.73b53cbf.js"
+    "static/js/main.65ee36e2.js"
   ]
 }

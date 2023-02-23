@@ -1,12 +1,41 @@
-# Getting Started with Create React App
+Readme for i-validate app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+The Idea Validation app is designed to help entrepreneurs and innovators validate their ideas and determine whether they have potential for success. The app offers various validation tests that provide insights and feedback based on the results.
 
-In the project directory, you can run:
+## Built with
 
-### `npm start`
+-HTML
+-CSS
+-Bootstrap
+-React
+-Firebase
+
+## Folder Structure
+
+- node_modules contains all dependencies required by the app.Main dependencies also listed in package.json
+- Public contains static assets including index.html (page template)
+  - Index.html
+    - title
+    - fonts
+    - css
+    - favicon
+    - id=”root”- our entire app
+- src in simplest form is the brain of our app. This is where we will do all our work. src/index.js is the javaScript entrypoint
+- .gitignore is specifies which files source control(Git) should ignore
+- package.json every Node.js project has a package.json and it contains information about our project , for example list of dependencies and scripts
+- Package-lock.json is a snapshot of entire dependency tree
+
+## Name structure and naming convention:
+
+camelCase will be used for this project
+
+## Package Manager:
+
+For the purpose of this project,**npm** is used
+
+## `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +43,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,42 +56,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+[## Product requirements document(PRD)](https://www.notion.so/Product-Requirement-Document-PRD-for-i-validate-bd8436f329d74bc5afa3cdff9e6c2ac3)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[## Technical requirements document(TRD)](https://house-ikenga.gitbook.io/i-validate-trd/)

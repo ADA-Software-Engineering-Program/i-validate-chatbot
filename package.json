@@ -1,6 +1,6 @@
 {
   "name": "i-validate",
-  "homepage":"https://ADA-Software-Engineering-Program.github.io/i-validate.git",
+  "homepage":"https://ADA-Software-Engineering-Program.github.io/i-validate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,66 +1,20 @@
-
-Readme for i-validate app
-
-## Project Overview
-
-The Idea Validation app is designed to help entrepreneurs and innovators validate their ideas and determine whether they have potential for success. The app offers various validation tests that provide insights and feedback based on the results.
-
-## Built with
-
--HTML
--CSS
--Bootstrap
--React
--Firebase
-
-## Folder Structure
-
-- node_modules contains all dependencies required by the app.Main dependencies also listed in package.json
-- Public contains static assets including index.html (page template)
-  - Index.html
-    - title
-    - fonts
-    - css
-    - favicon
-    - id=”root”- our entire app
-- src in simplest form is the brain of our app. This is where we will do all our work. src/index.js is the javaScript entrypoint
-- .gitignore is specifies which files source control(Git) should ignore
-- package.json every Node.js project has a package.json and it contains information about our project , for example list of dependencies and scripts
-- Package-lock.json is a snapshot of entire dependency tree
-
-## Name structure and naming convention:
-
-camelCase will be used for this project
-
-## Package Manager:
-
-For the purpose of this project,**npm** is used
-
-## `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-## `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-[## Product requirements document(PRD)](https://www.notion.so/Product-Requirement-Document-PRD-for-i-validate-bd8436f329d74bc5afa3cdff9e6c2ac3)
-
-[## Technical requirements document(TRD)](https://house-ikenga.gitbook.io/i-validate-trd/)
-
-
-
-
+# I-VALIDATE CHATBOT
+## FEATURES
+- Idea Validation: The chatbot will ask the user a series of questions to help them validate their idea. The questions will be based on the industry, target audience, competition, and feasibility of the idea. The chatbot will use its AI algorithms to analyze the answers and provide feedback on whether the idea is viable or not.
+- Industry Insights: The chatbot will provide industry insights to the users based on their idea. It will provide information on the latest trends, market demand, and potential competition.
+- Personalized Recommendations: The chatbot will provide personalized recommendations to the users based on their idea. It will suggest ways to improve the idea, target the right audience, and position the product in the market.
+- Feedback and Reviews: The chatbot will provide feedback and reviews on the user's idea. It will analyze the user's pitch, marketing strategy, and target audience to provide constructive feedback.
+- User Engagement: The chatbot will engage the users by providing them with helpful resources, tips, and tricks on idea validation. It will also encourage the users to share their ideas on social media and connect with other entrepreneurs.
+# I-Validate Chatbot Technical Requirements:
+- Natural Language Processing (NLP): The chatbot should have NLP capabilities to understand the user's queries and respond appropriately.
+- Machine Learning (ML): The chatbot should have ML algorithms to learn from the user's interactions and improve its responses over time.
+- API Integration: The chatbot should be integrated with the website's API to retrieve user data and provide personalized recommendations.
+- Security: The chatbot should be secure and protect user data from unauthorized access.
+- Scalability: The chatbot should be scalable and able to handle a large number of users.
+# I-Validate Chatbot Development Process:
+- Requirement Gathering: The development team will gather the requirements for the chatbot by interviewing the stakeholders and analyzing the website's user data.
+- Design: The development team will design the chatbot's user interface, conversation flow, and backend architecture.
+- Development: The development team will develop the chatbot's backend using programming languages such as Python, Java, or Node.js. They will also integrate the chatbot with the website's API.
+- Testing: The development team will test the chatbot's functionality, performance, and security using manual and automated testing techniques.
+- Deployment: The chatbot will be deployed on the website's server and integrated with the website's user interface.
+- Maintenance: The development team will provide ongoing maintenance and support for the chatbot to ensure its smooth functioning.

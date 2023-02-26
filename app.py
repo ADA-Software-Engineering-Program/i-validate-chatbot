@@ -1,20 +1,17 @@
-from flask import Flask, render_template, request, jsonify
-
+from flask import Flask, render_template, jsonify, request
 from chat import get_response
 
 app = Flask(__name__)
 
-@app.get("/")
+@app.route("/", methods=["GET"])
 def index_get():
     return render_template("base.html")
 
-@app.post("/predict")
+@app.route("/predict", methods=["POST"])
 def predict():
-    text = request.get_json().get("message")
-    # TODO: check if text is valid
+    text = request.get_json()["message"]
     response = get_response(text)
-    message = {"answer": response}
-    return jsonify(message)
+    return jsonify({"answer": response})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
